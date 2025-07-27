@@ -19,20 +19,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0 60px;
-  height: 80px;
+  padding: 0 3.7rem;
+  height: 5rem;
   width: 100%;
   margin-bottom: 5rem;
 
 }
 
 .nav-links {
-  padding: 18px;
-  font-size: 17px;
+  padding: 1.2rem;
+  font-size: 1.1rem;
 }
 
 .nav-links a {
-  margin-left: 25px;
+  margin-left: 1.7rem;
   text-decoration: none;
   color: black;
 }
@@ -45,7 +45,7 @@ body {
 .main-section {
   display: flex;
   margin: 0 4rem;
-  gap: 50px;
+  gap: 3.4rem;
   align-items: center;
   justify-content: center;
   
@@ -54,7 +54,7 @@ body {
 
 .content h2 {
   line-height: 2;
-  font-size: 40px;
+  font-size: 3.4rem;
   font-weight: 700;
 }
 
@@ -68,19 +68,19 @@ body {
 
 /* SKILL SECTION */
 .Skill-Section {
-  padding: 0 50px;
-  margin-bottom: 100px;
+  padding: 0 3.2rem;
+  margin-bottom: 6.2rem;
 }
 
 .Skill-Section h2 {
   text-align: center;
-  margin-bottom: 20px;
-  font-size: 30px;
+  margin-bottom: 1.4rem;
+  font-size: 1.8rem;
 }
 
 .Skill-Section .text {
   text-align: end;
-  margin-bottom: 20px;
+  margin-bottom: 1.4rem;
 }
 
 .Skill-Section .cells {
@@ -93,16 +93,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 150px;
+  width: 9.1rem;
   border: 2px solid #d3d3d3;
-  margin: 10px;
-  padding: 10px 15px;
-  border-radius: 5px;
+  margin: 0.8rem;
+  padding: 0.8rem 1rem;
+  border-radius: .4rem;
 }
 
 .Skill-Section .cells .cell i {
-  margin: 7px;
-  font-size: 20px;
+  margin: .3rem;
+  font-size: 1.3rem;
 }
 
 /* GALLERY SECTION */
@@ -116,10 +116,10 @@ body {
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
+  gap: 1.3rem;
   max-width: 1000px;
-  margin: 40px auto;
-  padding: 0 20px;
+  margin: 2.6rem auto;
+  padding: 0 1.3rem;
 }
 
 .gallery-grid img {
@@ -151,33 +151,33 @@ body {
 .lightbox img {
   max-width: 90%;
   max-height: 80%;
-  border-radius: 5px;
+  border-radius: .3rem;
 }
 
 .close-btn {
   position: absolute;
-  top: 30px;
-  right: 40px;
-  font-size: 40px;
+  top: 2rem;
+  right: 2.8rem;
+  font-size: 2.8rem;
   color: #ff0000;
   cursor: pointer;
 }
 
 /* CONTACT FORM */
 #contactForm {
-  width: 700px;
+  width: 44rem;
   margin: 0 auto;
-  padding: 30px;
+  padding: 2rem;
 }
 
 #contactForm input,
 #contactForm textarea {
   width: 100%;
-  padding: 12px 16px;
-  margin: 10px 0;
+  padding: .9rem 1rem;
+  margin: .8rem 0;
   border: 1px solid #ddd;
   border-radius: 4px;
-  font-size: 16px;
+  font-size: 1rem;
   outline: none;
   transition: border-color 0.3s ease;
 }
@@ -189,12 +189,12 @@ body {
 
 #contactForm button {
   width: 100%;
-  padding: 12px;
+  padding: .8rem;
   background-color: #000000;
   color: #ffffff;
   border: none;
   border-radius: 6px;
-  font-size: 16px;
+  font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -205,7 +205,7 @@ body {
 
 #responseMessage {
   text-align: center;
-  margin-top: 15px;
+  margin-top: 1rem;
   font-weight: 500;
 }
 
@@ -242,12 +242,12 @@ body {
 
   #contactForm {
     width: 90%;
-    padding: 20px;
+    padding: 1.3rem;
   }
 }
 @media (max-width: 806px) {
   .main-section {
-    margin: 30px;
+    margin: 2rem;
     flex-direction: column-reverse;
     margin: 2rem 4rem;
     gap: 3rem;
@@ -257,25 +257,25 @@ body {
 
 @media (max-width: 600px) {
   .nav-links {
-    font-size: 15px;
-    padding: 10px 0;
+    font-size: 1rem;
+    padding: 0.6rem 0;
   }
 
   .nav-links a {
-    margin-left: 15px;
+    margin-left: 1rem;
   }
 
   .content h2 {
-    font-size: 30px;
+    font-size: 2rem;
   }
 
   .Skill-Section h2 {
-    font-size: 24px;
+    font-size: 1.7rem;
   }
 
   .Skill-Section .cells .cell {
-    width: 120px;
-    padding: 8px 89px;
+    width:  7rem;
+    padding: 0.6rem 5.8rem;
   }
 
   .snapshot img {
@@ -285,11 +285,11 @@ body {
 
   .gallery-grid {
     grid-template-columns: 1fr;
-    margin: 20px auto;
+    margin: 1.3rem auto;
   }
 
   #contactForm button {
-    font-size: 14px;
+    font-size: .9rem
   }
 }
 
