@@ -108,7 +108,7 @@ body {
 /* GALLERY SECTION */
 .main-container h2 {
   color: red;
-  margin: 30px 0;
+  margin: 2.5rem 0;
   font-weight: 700;
   text-align: center;
 }
@@ -223,6 +223,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   text-align: start;
+  margin-bottom: 6rem;
 }
 
 /* responsive section */
@@ -294,6 +295,29 @@ body {
 
 @media (max-width: 720px) {
   .hide {
+    display: none;
+  }
+  .main-section{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    
+  }
+  .text p{
+    text-align: start;
+  }
+
+  .contact-details p{
+    text-align: start;
+  }
+}
+@media (max-width: 470px) {
+  .navbar h1{
+    font-size: 1rem;
+  
+  }
+
+  .nav-links :nth-child(3){
     display: none;
   }
 }
